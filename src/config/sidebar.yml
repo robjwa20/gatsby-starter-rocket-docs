@@ -16,5 +16,7 @@
   items:
     - label: FAQ
       link: /faq
-    - label: 'Github'
-      link: https://github.com/rocketseat/gatsby-themes
+    - label: 'World Map'
+      link: https://map.gods-sandbox.com
+    - label: 'Store'
+      link: https://map.gods-sandbox.com
