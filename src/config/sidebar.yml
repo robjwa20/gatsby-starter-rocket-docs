@@ -1,7 +1,5 @@
 # Sidebar navigation
 
-- label: 'Introduction'
-  link: '/'
 - label: 'Getting started'
   link: '/getting-started'
 - label: Guides
