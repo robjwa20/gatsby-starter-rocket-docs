@@ -4,8 +4,6 @@
   link: '/'
 - label: 'Getting started'
   link: '/getting-started'
-- label: 'Rules'
-  link: '/rules'
 - label: Guides
   items:
     - label: 'Join a Town'
@@ -41,6 +39,8 @@
 
 - label: More
   items:
+    - label: 'Rules'
+      link: '/rules'
     - label: FAQ
       link: /faq
     - label: 'World Map'
