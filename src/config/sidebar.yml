@@ -4,6 +4,8 @@
   link: '/'
 - label: 'Getting started'
   link: '/getting-started'
+- label: 'Rules'
+  link: '/rules'
 - label: Guides
   items:
     - label: 'Join a Town'
