@@ -3,6 +3,7 @@ title: Joining a Town
 description: Learn how to join a town and what you can do with your plot.
 ---
 
+## Quick Start Video
 https://www.youtube.com/watch?v=E8XoKB54k68
 
 ## Commands
@@ -45,3 +46,32 @@ https://www.youtube.com/watch?v=E8XoKB54k68
     - explosion - Turn on/off explosions in the plot in which you stand.
     - mob - Turn on/off hostile mobspawning in the plot in which you stand.
   - **clear** - Command to remove list of block id's from a plot, used by a mayor on town-owned land, or by a plot-owner on their personal plots.
+
+
+### /resident
+-   **/resident** - Shows a player their resident screen.
+  - **?** - Shows /res commands available.
+  - **{resident}** - Shows a player another player's resident screen.
+  - **friend**
+    - **add {resident}** - Resident adds online player to their friends list.
+    - **add+ {resident}** - Resident adds offline player to their friends list.
+    - **remove {resident}** - Resident removes online player from their friends list.
+    - **remove+ {resident}** - Resident removes offline player from their friends list.
+    - **clearlist** - Removes all friends from a resident's friend list.
+    - **list** - Returns a list of your friends.
+  - **list** - Lists residents in towny's data folder who are online.
+  - **jail paybail** - Allows a player to pay to get out of jail. Funds go to the town which owns the Jail.
+  - **toggle**
+    - **map** - Turns on map which refreshes when moving across plot borders.
+    - **plotborder** - Turns on smokey plot-border view. Border shows when players cross to different townblocks.
+    - **constantplotborder** - Turns on smokey plot-border view. Border doesn't disappear.
+    - **ignoreplots** - Turns on/off plot notifications in town.
+    - **reset** - This turns off all modes that are active.
+  - **set**
+    - **perm**
+    - **{on/off}** - Edits the perm line on the resident screen. [See here for details.](https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#towny-plot-perms)
+    - **{friend/ally/outsider} {on/off}**
+    - **{build/destroy/switch/itemuse} {on/off}**
+    - **{friend/ally/outsider} {build/destroy/switch/itemuse} {on/off}**
+    - **reset** - This takes the perm line seen in the /resident screen and applies it to all plots personally owned by the player typing it.
+  - **tax** - Shows taxes a player pays.
